@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="petcenter-db" />
+        <module name="petcenter-ui" />
+        <module name="petcenterdb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PetCenter" target="1.5" />
+      <module name="petcenter-db" target="1.8" />
+      <module name="petcenter-ui" target="1.8" />
+      <module name="petcenterdb" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
