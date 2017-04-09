@@ -6,31 +6,36 @@ import java.io.Serializable;
 
 @Entity
 @Table(name = "petshops")
-@XmlRootElement
-@NamedQueries({@NamedQuery(name = "PetShop.findAll", query = "SELECT u FROM PetShop u"),})
-public class PetShop implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+@NamedQueries({ @NamedQuery(name = "PetShop.findAll", query = "SELECT u FROM PetShop u"), })
+public class PetShop {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name = "Id")
-    private long id;
+    private Integer id;
 
-    @Column(name = "Name")
+    @Column(name = "petshopName")
     private String name;
-
-    @Column(name = "Username")
+    @Column(name = "username")
     private String username;
 
-    @Column(name = "Password")
+    @Column(name = "password")
     private String password;
 
-    public long getId() {
+    public PetShop() {
+    }
+
+    public PetShop(String name, String username, String password) {
+        super();
+        this.name = name;
+        this.username = username;
+        this.password = password;
+    }
+
+    public Integer getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -56,5 +61,15 @@ public class PetShop implements Serializable {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    @Override
+    public String toString() {
+        return "PetShop{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }

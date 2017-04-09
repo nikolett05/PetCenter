@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dff693b-9902-4a19-aa03-3df252832a65" name="Default" comment="" />
+    <list default="true" id="6dff693b-9902-4a19-aa03-3df252832a65" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/dao/PetShopDao.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/dao/PetShopDaoInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/manager/EntityManagerUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/HomeHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/LoginHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopHome.fxml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/petcenter-db/target/classes/META-INF/persistence.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/petcenter-db/target/classes/hu/unideb/inf/petcenter/db/entity/EntityManaging.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/petcenter-db/target/classes/hu/unideb/inf/petcenter/db/entity/StoredUsers.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-db/target/classes/hu/unideb/inf/petcenter/db/entity/PetShop.class" afterPath="$PROJECT_DIR$/petcenter-db/target/classes/hu/unideb/inf/petcenter/db/entity/PetShop.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/target/classes/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.class" afterPath="$PROJECT_DIR$/petcenter-ui/target/classes/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/target/classes/hu/unideb/inf/petcenter/ui/start/Main.class" afterPath="$PROJECT_DIR$/petcenter-ui/target/classes/hu/unideb/inf/petcenter/ui/start/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/target/classes/hu/unideb/inf/petcenter/ui/surface/LoadSurface.class" afterPath="$PROJECT_DIR$/petcenter-ui/target/classes/hu/unideb/inf/petcenter/ui/surface/LoadSurface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java" afterPath="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.java" afterPath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/start/Main.java" afterPath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/start/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/surface/LoadSurface.java" afterPath="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/surface/LoadSurface.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml" afterPath="$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/petcenter-ui/target/classes/fxml/PetShopRegistry.fxml" afterPath="$PROJECT_DIR$/petcenter-ui/target/classes/fxml/PetShopRegistry.fxml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/petcenterdb/target/" />
@@ -19,12 +43,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+    <leaf>
+      <file leaf-file-name="PetShopDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/dao/PetShopDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="17" lean-forward="false" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+            <state relative-caret-position="1003">
+              <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -33,96 +57,18 @@
       <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+            <state relative-caret-position="68">
+              <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EntityManaging.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="83" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PetShop.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#700#701#0" expanded="false" />
-                <element signature="e#725#726#0" expanded="false" />
-                <element signature="e#759#760#0" expanded="false" />
-                <element signature="e#787#788#0" expanded="false" />
-                <element signature="e#818#819#0" expanded="false" />
-                <element signature="e#845#846#0" expanded="false" />
-                <element signature="e#885#886#0" expanded="false" />
-                <element signature="e#917#918#0" expanded="false" />
-                <element signature="e#952#953#0" expanded="false" />
-                <element signature="e#983#984#0" expanded="false" />
-                <element signature="e#1031#1032#0" expanded="false" />
-                <element signature="e#1071#1072#0" expanded="false" />
-                <element signature="e#1106#1107#0" expanded="false" />
-                <element signature="e#1137#1138#0" expanded="false" />
-                <element signature="e#1185#1186#0" expanded="false" />
-                <element signature="e#1225#1226#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadSurface.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/surface/LoadSurface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistryHandler.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RegistryHandler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/start/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#403#404#0" expanded="false" />
-                <element signature="e#431#432#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/petcenter-ui/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="459">
+              <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -130,26 +76,40 @@
       </file>
       <file leaf-file-name="PetShopRegistry.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
+        </entry>
+      </file>
+      <file leaf-file-name="PetShop.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+              <folding>
+                <element signature="e#811#812#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PetShopLogin.fxml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
+      <file leaf-file-name="EntityManagerUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/manager/EntityManagerUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -178,15 +138,23 @@
         <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManager.java" />
         <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/petcenter-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java" />
+        <option value="$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml" />
+        <option value="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/HomeHandler.java" />
+        <option value="$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml" />
         <option value="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/surface/LoadSurface.java" />
         <option value="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/start/Main.java" />
-        <option value="$PROJECT_DIR$/petcenter-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/LoginHandler.java" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/dao/PetShopDaoInterface.java" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/service/PetShopService.java" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/manager/EntityManagerUtil.java" />
+        <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/dao/PetShopDao.java" />
         <option value="$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.java" />
         <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java" />
-        <option value="$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java" />
-        <option value="$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml" />
-        <option value="$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml" />
       </list>
     </option>
   </component>
@@ -228,6 +196,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -251,6 +220,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="petcenter-ui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -292,48 +293,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fxml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PetCenter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="petcenter-ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="surface" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,10 +323,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="start" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -405,9 +360,172 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcenter-db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcenter-db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcenter-db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcenter-db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcenter-db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PetCenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="petcenter-db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,6 +536,14 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
     <property name="last_opened_file_path" value="C:/Java/JavaFX Scene Builder 2.0/JavaFX Scene Builder 2.0.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\PetCenter\petcenter-db\src\main\resources\META-INF" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PetCenter\petcenter-db\src\main\resources" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -832,6 +958,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="6dff693b-9902-4a19-aa03-3df252832a65" name="Default" comment="" />
@@ -844,32 +973,37 @@
       <workItem from="1490121529701" duration="4940000" />
       <workItem from="1490813065827" duration="791000" />
       <workItem from="1490891473435" duration="4856000" />
-      <workItem from="1491207248625" duration="601000" />
+      <workItem from="1491207248625" duration="1194000" />
+      <workItem from="1491493072905" duration="8207000" />
+      <workItem from="1491665030741" duration="32000" />
+      <workItem from="1491665145376" duration="698000" />
+      <workItem from="1491740661615" duration="6689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22167000" />
+    <option name="totallyTimeSpent" value="38386000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.09364548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2954292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16684435" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1977612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -882,7 +1016,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -902,107 +1035,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/start/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="76" lean-forward="true" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#885#886#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1071#1072#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1137#1138#0" expanded="false" />
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/surface/LoadSurface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,9 +1046,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,11 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1032,28 +1061,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1062,7 +1083,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1070,38 +1091,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java" />
     <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="77" lean-forward="true" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#885#886#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1071#1072#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1137#1138#0" expanded="false" />
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1110,9 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1120,9 +1116,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1130,11 +1124,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,28 +1131,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1172,7 +1153,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1180,38 +1161,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java" />
     <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#885#886#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1071#1072#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1137#1138#0" expanded="false" />
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1220,9 +1179,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1230,9 +1186,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="41" column="37" lean-forward="true" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,11 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1252,28 +1201,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-        </state>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1286,13 +1227,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1317,86 +1251,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="54" lean-forward="false" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="83" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="77" lean-forward="false" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#700#701#0" expanded="false" />
-            <element signature="e#725#726#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#818#819#0" expanded="false" />
-            <element signature="e#845#846#0" expanded="false" />
-            <element signature="e#885#886#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#952#953#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#1031#1032#0" expanded="false" />
-            <element signature="e#1071#1072#0" expanded="false" />
-            <element signature="e#1106#1107#0" expanded="false" />
-            <element signature="e#1137#1138#0" expanded="false" />
-            <element signature="e#1185#1186#0" expanded="false" />
-            <element signature="e#1225#1226#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/surface/LoadSurface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/start/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#403#404#0" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/StoredUsers.java" />
     <entry file="file://$PROJECT_DIR$/petcenter-ui/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1408,32 +1267,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopHome.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/LoginHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="76" lean-forward="false" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+        <state relative-caret-position="459">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/HomeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="91" lean-forward="false" selection-start-line="13" selection-start-column="80" selection-end-line="13" selection-end-column="91" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/surface/LoadSurface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/start/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/EntityManaging.java" />
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/dao/PetShopDaoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="33" column="21" lean-forward="false" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="82" lean-forward="false" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/service/PetShopService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopRegistry.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="37" lean-forward="false" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/resources/fxml/PetShopLogin.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/dao/PetShopDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="1003">
+          <caret line="68" column="1" lean-forward="true" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/PetShop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="81" lean-forward="false" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+          <folding>
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-db/src/main/java/hu/unideb/inf/petcenter/db/entity/manager/EntityManagerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/petcenter-ui/src/main/java/hu/unideb/inf/petcenter/ui/handler/RegistryHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="37" column="36" lean-forward="false" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="36" />
           <folding />
         </state>
       </provider>
