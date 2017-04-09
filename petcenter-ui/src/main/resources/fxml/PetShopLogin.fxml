@@ -10,8 +10,9 @@
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="278.0" prefWidth="268.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.petcenter.ui.handler.LoginHandler">
    <children>
       <TextField fx:id="usernameField" layoutX="41.0" layoutY="38.0" prefHeight="28.0" prefWidth="186.0" promptText="UserName" />
-      <PasswordField fx:id="passwordFiled" layoutX="41.0" layoutY="105.0" prefHeight="34.0" prefWidth="186.0" promptText="Password" />
+      <PasswordField fx:id="passwordField" layoutX="41.0" layoutY="89.0" prefHeight="28.0" prefWidth="186.0" promptText="Password" />
       <Button layoutX="89.0" layoutY="169.0" mnemonicParsing="false" onAction="#loginAction" prefHeight="28.0" prefWidth="90.0" text="Login" textAlignment="CENTER" />
       <Button layoutX="89.0" layoutY="221.0" mnemonicParsing="false" onAction="#registryAction" prefHeight="28.0" prefWidth="90.0" text="Registry" />
+      <Label fx:id="message" layoutX="41.0" layoutY="139.0" prefHeight="17.0" prefWidth="186.0" />
    </children>
 </AnchorPane>
