@@ -4,6 +4,7 @@
 	version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
 	<persistence-unit name="petcenter" transaction-type="RESOURCE_LOCAL">
 		<class>hu.unideb.inf.petcenter.db.entity.PetShop</class>
+		<class>hu.unideb.inf.petcenter.db.entity.PetData</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/petcenter"/>

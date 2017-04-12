@@ -1,6 +1,8 @@
 package hu.unideb.inf.petcenter.ui.handler;
 
+import hu.unideb.inf.petcenter.db.dao.PetDataDao;
 import hu.unideb.inf.petcenter.db.dao.PetShopDao;
+import hu.unideb.inf.petcenter.db.entity.PetData;
 import hu.unideb.inf.petcenter.db.entity.PetShop;
 import hu.unideb.inf.petcenter.ui.surface.LoadSurface;
 import javafx.event.ActionEvent;
@@ -19,6 +21,7 @@ import java.util.ResourceBundle;
 public class RegistryHandler implements Initializable {
 
     private PetShopDao petShopDao = new PetShopDao();
+    private PetDataDao petDataDao = new PetDataDao();
     private LoadSurface load = new LoadSurface();
 
     @FXML
@@ -59,6 +62,8 @@ public class RegistryHandler implements Initializable {
             newPetShop.setUsername(username.getText());
             newPetShop.setPassword(password.getText());
             petShopDao.insert(newPetShop);
+//            PetData petData = new PetData("test","as",12,"asd","asd",true,true,123,newPetShop);
+//            petDataDao.insert(petData);
             load.loginScreen();
             ((Node) (event.getSource())).getScene().getWindow().hide();
         }

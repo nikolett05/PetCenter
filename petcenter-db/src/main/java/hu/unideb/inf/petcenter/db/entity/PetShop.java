@@ -3,6 +3,10 @@ package hu.unideb.inf.petcenter.db.entity;
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.io.Serializable;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "petshops")
@@ -11,6 +15,7 @@ public class PetShop {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
+    @Column(name = "petshops_id")
     private Integer id;
 
     @Column(name = "petshopName")
@@ -20,6 +25,10 @@ public class PetShop {
 
     @Column(name = "password")
     private String password;
+
+    @OneToMany(cascade = CascadeType.ALL)
+    @JoinTable(name = "Petshops_PetData", joinColumns = { @JoinColumn(name ="petshops_id") }, inverseJoinColumns = { @JoinColumn(name = "petdata_id") })
+    private Set<PetData> petDataSet = new HashSet<PetData>(0);
 
     public PetShop() {
     }
@@ -61,6 +70,14 @@ public class PetShop {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public Set<PetData> getPetDataSet() {
+        return petDataSet;
+    }
+
+    public void setPetDataSet(Set<PetData> petDataSet) {
+        this.petDataSet = petDataSet;
     }
 
     @Override

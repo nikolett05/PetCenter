@@ -6,7 +6,7 @@ import javafx.stage.Stage;
 
 public class Main extends Application{
 
-    LoadSurface load = new LoadSurface();
+    private LoadSurface load = new LoadSurface();
 
     @Override
     public void start(Stage primaryStage) throws Exception {
